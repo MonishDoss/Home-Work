@@ -1,0 +1,33 @@
+.Header
+{
+  width: 500px; 
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  margin: 10px;
+  cursor: pointer;
+  border: 2px solid rgb(252, 250, 250);
+  
+  /* Use flexbox to organize card content */
+    flex-grow: 1; 
+    display: flex;
+  flex-direction: row;
+}
+.Profile
+{
+    border: 2px solid rgb(100, 32, 32);
+    border-radius: 100%;
+    display: inline;
+    width: 20px;
+    height: 20px;
+}
+.Name
+{
+    font-size: 1.3em;
+    margin: 0 0 5px 0;
+}
+.Time
+{
+    font-size: 1.3em;
+    margin: 0 0 5px 0;
+    color: #646464;
+}

@@ -1,15 +1,13 @@
-import Post from "./compount/Post/Post"
+import React from "react";
+import "./index.css";
+import Feed from "./components/Feed";
 
 function App() {
   return (
-    <>
-    <Post
-    profilePhoto="https://static.vecteezy.com/system/resources/previews/019/900/322/non_2x/happy-young-cute-illustration-face-profile-png.png"
-    name="TestingName"
-    time='.2h'
-    />
-    </>
-  )
+    <div className="ig-root">
+      <Feed />
+    </div>
+  );
 }
 
-export default App
+export default App;
